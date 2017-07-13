@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Indie Flower', cursive;
+  line-height: 1.6;
+  color:#CD5C5C;
+  margin:0;
+  background:#DAF7A6;
+}
+ul{
+  margin:0;
+  padding:;
+  list-style: none;
+  font-size: 1.5em;
+}
+p{
+  font-size: .95em;
+  margin-bottom: 1.8em;
+}
+h2,
+h3,
+a {
+  color:#C70039;
+}
+h2,
+h3{
+  margin-top: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/*---Navigation---*/
+.name{
+  font-size: 2.35em;
+  margin:0;
+  color:#CD5C5C;
+}
+.main-nav{
+  margin-top: 5px;
+}
+.name a,
+.main-nav a{
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+  color:#CD5C5C;
+}
+.main-nav a{
+  font-size: .95em;
+  color:#FF5733;
+  text-transform: uppercase;
+}
+.main-nav a:hover{
+  color: #C70039;
+}
+
+/*---Layout Containers---*/
+
+.main-header{
+  padding-top:.5em;
+  padding-bottom: .5em;
+}
+.banner,
+.main-footer{
+  text-align: center;
+}
+.banner{
+  color:#CD5C5C;
+  background: #FFA07A;
+  padding:3.2em 0;
+  margin-bottom: 48px;
+}
+.col{
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.main-footer{
+  background:#FFA07A;
+  padding: 2em 0;
+  margin-top:30px;
+}
+/*---- Page Elemnts ---*/
+.logo{
+  width:190px;
+}
+.headline{
+  margin-bottom:0px;
+}
+.feat-img{
+  border-radius:5px
+}
+
+/*========
+Media Queries
+=====*/
+
+@media (min-width:769px){
+  .main-header,
+  .row,
+  .footer-inner{
+    width:90%;
+    margin: 0 auto;
+    max-width:1150px;
+  }
+  .tagline{
+    font-size:1.4em;
+  }
+}
+@media (min-width:1025px){
+  .main-header,
+  .row{
+    width:80%;
+    max-width:1150px;
+  }
+}
